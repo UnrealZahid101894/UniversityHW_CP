@@ -127,10 +127,16 @@ int main() {
     printf("volume of sphere:%f",4/3*pie*r*r*r);
 
     //problem 16
-    int a, b;
-    printf("Enter two numbers: ");
+    int a, b, temp;
+    printf("Enter two number: ");
     scanf("%d %d", &a, &b);
-    printf("After swapping: %d %d\n", b, a);
+    printf("Before swap: a = %d, b = %d\n", a, b);
+    temp = a;
+    a = b;
+    b = temp;
+    printf("After swap: a = %d, b = %d\n", a, b);
+    
+
     
 
 
