@@ -93,7 +93,7 @@ int main() {
     scanf("%d", &r);
     printf("Height: ");
     scanf("%d",&s);
-    printf("Area of triangle: %d", 1/2 * r *s);
+    printf("Area of triangle: %d", 0.5 * r *s);
 
     //problem 12
     float pie = 3.14;
