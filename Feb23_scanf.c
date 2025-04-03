@@ -21,8 +21,6 @@ int main() {
     scanf("%c",&c);
     printf("Your entered :%c\n",c);
 
-
-
     //problem 4
     int d,e;
     printf("\nEnter first number: ");
@@ -130,11 +128,5 @@ int main() {
     b = temp;
     printf("After swap: a = %d, b = %d\n", a, b);
     
-
-    
-
-
-
-
     return 0;
 }
