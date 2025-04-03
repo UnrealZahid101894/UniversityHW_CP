@@ -18,12 +18,13 @@ int main() {
     //problem 3
     char c;
     printf("\nEnter a character : ");
-    scanf("%c",&d);
-    printf("Your entered :%d\n",c);
+    scanf("%c",&c);
+    printf("Your entered :%c\n",c);
+
+
 
     //problem 4
-    int d;
-    int e;
+    int d,e;
     printf("\nEnter first number: ");
     scanf("%d", &d);
     printf("Enter second number: ");
@@ -31,8 +32,7 @@ int main() {
     printf("Sum of entered numbers: %d\n", d + e);
 
     //problem 5
-    int f;
-    int g;
+    int f,g;
     printf("\nEnter first number: ");
     scanf("%d", &f);
     printf("Enter second number: ");
@@ -40,8 +40,7 @@ int main() {
     printf("Difference of entered numbers: %d\n", f - g);
 
     //problem 6      
-    int h;
-    int i;
+    int h,i;
     printf("\nEnter first number: ");
     scanf("%d", &h);
     printf("Enter second number: ");
@@ -49,8 +48,7 @@ int main() {
     printf("Product of entered numbers: %d\n", h * i);
 
     //problem 7
-    int j;
-    int k;
+    int j,k;
     printf("\nEnter first number: ");
     scanf("%d", &j);
     printf("Enter second number: ");
@@ -58,8 +56,7 @@ int main() {
     printf("Division of entered numbers: %d\n", j / k);
 
     //problem 8
-    int l;
-    int m;
+    int l,m;
     printf("\nEnter first number: ");    
     scanf("%d", &l);
     printf("Enter second number: ");
@@ -67,8 +64,7 @@ int main() {
     printf("Remainder of entered numbers: %d\n", l % m);
 
     //problem 9
-    int n;
-    int o;
+    int n,o;
     printf("\nEnter first number: ");
     scanf("%d", &n);    
     printf("Enter second number: ");
@@ -80,20 +76,18 @@ int main() {
     printf("%d %% %d = %d\n", n, o, n % o);
 
     //problem 10
-    int p;
-    int q;
+    int p,q;
     printf("Enter two numbers: ");
     scanf("%d %d", &p, &q);
     printf("%d  %d \n", q,p );
 
     //problem 11
-    int r;
-    int s;
+    int r,s;
     printf("Base: ");
     scanf("%d", &r);
     printf("Height: ");
     scanf("%d",&s);
-    printf("Area of triangle: %d", 0.5 * r *s);
+    printf("Area of triangle: %d", 1/2 * r *s);
 
     //problem 12
     float pie = 3.14;
